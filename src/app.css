@@ -1,0 +1,40 @@
+body {
+    font-family: 'Inter', Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.container {
+    box-shadow: -23px 76px 44px 35px rgba(0,0,0,0.1);
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    background: #196578;
+    border-radius: 2rem;
+}
+
+
+.profile-area {
+    max-width: 50%;
+    width: 50%;
+    min-height: 100%;
+
+}
+
+.input-area {
+    max-width: 50%;
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
