@@ -31,9 +31,9 @@ function App() {
           <InputArea onChange={onChangeProps} onClick={onClickProps} />
         </div>
         <div className="profile-area">
-          {isLoading ? (
-            <ProfileCard user={profileGit} />
-          ) : null}
+          <ProfileCard user={profileGit} />
+          {/* {isLoading ? (
+          ) : null} */}
         </div>
       </div>
     </div>
